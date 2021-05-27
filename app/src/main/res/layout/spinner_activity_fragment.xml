@@ -1,0 +1,32 @@
+<RelativeLayout android:id="@+id/fragment_container"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="250dp"
+    android:text="SPIN" />
+
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="325dp" />
+
+    <ImageView
+        android:id="@+id/loadingText"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="225dp" />
+
+</RelativeLayout>
